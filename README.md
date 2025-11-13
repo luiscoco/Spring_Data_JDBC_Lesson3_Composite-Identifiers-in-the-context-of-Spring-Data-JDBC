@@ -4,6 +4,11 @@ A minimal Spring Boot 3 + Spring Data JDBC sample that demonstrates how to persi
 
 ## Key Features
 - Composite primary key backed by the immutable `OrderId` value object.
+  
+  <img width="893" height="633" alt="image" src="https://github.com/user-attachments/assets/63a4f8f0-7929-4090-8c3a-64fc9b84d9bb" />
+
+  <img width="1017" height="479" alt="image" src="https://github.com/user-attachments/assets/f40a162f-238e-4504-a802-f001a0fa0c13" />
+
 - Schema auto-initialised through `schema.sql`, so the project stays migration-free for classroom use.
 - Repository implemented with `NamedParameterJdbcTemplate` so composite identifiers are handled via plain SQL even though Spring Data JDBC does not yet support them as entity IDs.
 - H2 in-memory database configured for repeatable runs; no external services required.
