@@ -1,6 +1,0 @@
-com\example\compositeid\domain\OrderId.class
-com\example\compositeid\CompositeIdDemoApplication.class
-com\example\compositeid\repository\JdbcOrderRepository.class
-com\example\compositeid\repository\JdbcOrderRepository$OrderRowMapper.class
-com\example\compositeid\domain\Order.class
-com\example\compositeid\repository\OrderRepository.class
